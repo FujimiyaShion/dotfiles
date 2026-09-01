@@ -32,10 +32,26 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 # 2. 克隆本仓库并执行安装
 git clone https://github.com/FujimiyaShion/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-./install.sh    # 自动装全部软件包 + stow 链接配置
+./install.sh    # 交互式安装
 ```
 
-> 注意：`noctalia` 配置里的壁纸路径指向 `~/Pictures/Wallpapers`，壁纸文件本身未纳入仓库，请自行准备。
+### 安装选项
+
+`./install.sh` 默认交互式，依次让你：
+
+1. **选择配置**：16 个配置包多选（回车=全选，`n`=跳过，可输编号如 `1 3 5`）
+2. **选择软件组**：11 个软件组多选（系统基础/显卡驱动/音频/网络/桌面环境/终端Shell/编辑器开发/输入法字体/影音游戏/办公日常/AUR 应用）
+3. **是否下载壁纸**：可选，壁纸在单独仓库 [wallpapers](https://github.com/FujimiyaShion/wallpapers)，会克隆到 `~/Pictures/Wallpapers`（noctalia 默认从这里读壁纸）
+
+非交互模式：
+
+```bash
+./install.sh --full      # 全量安装（所有配置 + 所有软件组 + 壁纸）
+./install.sh --configs   # 只链接全部配置
+./install.sh --pkgs      # 只安装全部软件包
+```
+
+> 注意：`packages/pkglist.txt`、`packages/aurlist.txt` 为全量包清单备份，交互模式下的软件组即按此划分。
 
 ## 日常更新配置
 
