@@ -31,7 +31,7 @@ sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
 # 2. 克隆本仓库并执行安装
-git clone https://github.com/<你的用户名>/dotfiles.git ~/dotfiles
+git clone https://github.com/FujimiyaShion/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh    # 自动装全部软件包 + stow 链接配置
 ```
