@@ -17,7 +17,6 @@ STOW_PACKAGES=(
     fcitx5
     pacseek
     go-musicfox
-    mark-shot
     fontconfig
     noctalia
     opencode

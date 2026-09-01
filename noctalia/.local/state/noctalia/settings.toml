@@ -119,13 +119,13 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/shion/Pictures/Wallpapers/wallhaven-p9y253.png"
+    path = "/home/shion/Pictures/Wallpapers/new.jpg"
 
     [wallpaper.last]
-    path = "/home/shion/Pictures/Wallpapers/wallhaven-p9y253.png"
+    path = "/home/shion/Pictures/Wallpapers/new.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/shion/Pictures/Wallpapers/wallhaven-p9y253.png"
+    path = "/home/shion/Pictures/Wallpapers/new.jpg"
 
 [widget.cat]
 cat_size = 25

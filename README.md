@@ -17,7 +17,6 @@
 | `fcitx5/` | 输入法 |
 | `pacseek/` | AUR 包管理器前端 |
 | `go-musicfox/` | 网易云音乐终端客户端 |
-| `mark-shot/` | 截图标注工具 |
 | `fontconfig/` | 字体配置 |
 | `noctalia/` | niri shell（bar/通知/壁纸）配置 |
 | `opencode/` | AI 编程助手配置 |
