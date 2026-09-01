@@ -1,0 +1,11 @@
+ hwdec=vaapi                             # 优先使用硬解（VAAPI，Intel 核显）
+ vo=gpu-next
+ gpu-api=opengl
+#log-file="~~desktop/mpv.log"            # 输出log日志在桌面
+ keep-open=yes                           # 播放列表中的最后一个条目播放完毕后暂停
+ save-position-on-quit=yes               # 退出时保存当前的播放状态
+ watch-later-options=start,vid,aid,sid   # 指定保存播放状态的属性列表（示例表示：播放位置、视频 音频 字幕轨号）
+ audio-file-auto=fuzzy                   # 自动加载近似名的外置音轨
+ sub-auto=fuzzy                          # 自动加载近似名的外置字幕
+#profile=high-quality                    # 使用一个内置的画质方案预设
+ screenshot-dir="~~desktop/"             # 截图的输出路径在桌面

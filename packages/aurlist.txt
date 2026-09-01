@@ -1,0 +1,8 @@
+ani2xcursor
+linuxqq
+pacseek
+pins-git
+typora-free
+wechat-appimage
+wps-office-cn
+wps-office-mui-zh-cn
